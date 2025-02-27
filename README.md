@@ -1,6 +1,6 @@
 # Border Bike King
 
-![Project Preview](projectoverview.PNG)
+![Project Preview](Projectoverview.PNG)
 
 A responsive e-commerce website for a fictional bike shop built with HTML, CSS, JavaScript, and Bootstrap.
 
