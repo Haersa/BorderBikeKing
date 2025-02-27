@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bike King Borders</title>
+    <!--bootstrap style cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="Images/borderbikelogo.svg" id="nav-logo" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hiring.html">Hiring</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-md-12 hero-content">
+            <h1>Welcome to Border Bike King</h1>
+            <p>Your ultimate destination for biking adventures!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 px-3">
+      <div class="row">
+        <div class="Why-Us text-center">
+          <h1>Why Us?</h1>
+        </div>
+        <!-- Column 1 -->
+        <div class="col-md-4">
+          <div class="column" id="index-column">
+            <i class="fas fa-bicycle icon" id="indexIcon"></i>
+            <h2 class="indexHeading">Quality Bikes</h2>
+            <p>
+              Our bikes are top-notch, ensuring a smooth and comfortable ride on
+              any terrain.
+            </p>
+          </div>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-4">
+          <div class="column" id="index-column">
+            <i class="fas fa-hand-holding-usd icon" id="indexIcon"></i>
+            <h2 class="indexHeading">Affordable Prices</h2>
+            <p>
+              We offer competitive prices so everyone can enjoy the thrill of
+              biking without breaking the bank.
+            </p>
+          </div>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-4">
+          <div class="column" id="index-column">
+            <i class="fas fa-thumbs-up icon" id="indexIcon"></i>
+            <h2 class="indexHeading">Excellent Service</h2>
+            <p>
+              Our friendly staff are dedicated to providing exceptional service
+              and assistance to all customers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="local-trails mt-5 px-3">
+      <div class="trails-container">
+        <h2>Explore Local Trails</h2>
+        <!-- Tab Menu -->
+        <ul class="nav nav-tabs" id="trailsTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="trails-mountain-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#trails-mountain"
+              type="button"
+              role="tab"
+              aria-controls="trails-mountain"
+              aria-selected="true"
+            >
+              Mountain Bike Trails
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="trails-road-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#trails-road"
+              type="button"
+              role="tab"
+              aria-controls="trails-road"
+              aria-selected="false"
+            >
+              Road Bike Trails
+            </button>
+          </li>
+        </ul>
+        <!-- Tab Content -->
+        <div class="tab-content" id="trailsTabsContent">
+          <!-- Mountain Bike Trails Tab -->
+          <div
+            class="tab-pane fade show active"
+            id="trails-mountain"
+            role="tabpanel"
+            aria-labelledby="trails-mountain-tab"
+          >
+            <!-- Accordion for Mountain Bike Trails -->
+            <div class="accordion" id="trails-mountain-accordion">
+              <!-- Accordion Item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="trails1-heading">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#trails1-collapse"
+                    aria-expanded="true"
+                    aria-controls="trails1-collapse"
+                  >
+                    The Ridge Loop
+                  </button>
+                </h2>
+                <div
+                  id="trails1-collapse"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="trails1-heading"
+                  data-bs-parent="#trails-mountain-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Intermediate</li>
+                      <li>Length: 10 miles</li>
+                      <li>Elevation Gain: 1200 feet</li>
+                      <li>
+                        Description: The Ridge Loop offers stunning panoramic
+                        views of the surrounding valleys and peaks. This
+                        intermediate trail features challenging climbs and
+                        exhilarating descents, making it perfect for experienced
+                        riders seeking a thrilling adventure.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="trails2-heading">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#trails2-collapse"
+                    aria-expanded="false"
+                    aria-controls="trails2-collapse"
+                  >
+                    Pine Forest Trail
+                  </button>
+                </h2>
+                <div
+                  id="trails2-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="trails2-heading"
+                  data-bs-parent="#trails-mountain-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Beginner</li>
+                      <li>Length: 5 miles</li>
+                      <li>Elevation Gain: 500 feet</li>
+                      <li>
+                        Description: The Pine Forest Trail winds through dense
+                        pine forests and tranquil meadows, providing a peaceful
+                        escape for riders of all levels. With gentle slopes and
+                        well-marked paths, this beginner-friendly trail is ideal
+                        for families and novice cyclists.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="trails3-heading">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#trails3-collapse"
+                    aria-expanded="false"
+                    aria-controls="trails3-collapse"
+                  >
+                    Rocky Ridge Trail
+                  </button>
+                </h2>
+                <div
+                  id="trails3-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="trails3-heading"
+                  data-bs-parent="#trails-mountain-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Advanced</li>
+                      <li>Length: 15 miles</li>
+                      <li>Elevation Gain: 2500 feet</li>
+                      <li>
+                        Description: The Rocky Ridge Trail challenges even the
+                        most seasoned riders with its rugged terrain and
+                        technical features. Navigate through rocky outcrops,
+                        root-strewn paths, and steep inclines as you conquer
+                        this adrenaline-pumping adventure.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="trails4-heading">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#trails4-collapse"
+                    aria-expanded="false"
+                    aria-controls="trails4-collapse"
+                  >
+                    Waterfall Descent
+                  </button>
+                </h2>
+                <div
+                  id="trails4-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="trails4-heading"
+                  data-bs-parent="#trails-mountain-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Expert</li>
+                      <li>Length: 8 miles</li>
+                      <li>Elevation Gain: 1500 feet</li>
+                      <li>
+                        Description: Brace yourself for an epic descent down the
+                        Waterfall Trail, where cascading waterfalls and sheer
+                        cliff faces await. This expert-level trail demands
+                        precision and skill as you navigate through tight
+                        switchbacks and treacherous drops, offering an
+                        unforgettable adrenaline rush for experienced riders.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Road Bike Trails Tab -->
+          <div
+            class="tab-pane fade"
+            id="trails-road"
+            role="tabpanel"
+            aria-labelledby="trails-road-tab"
+          >
+            <!-- Accordion for Road Bike Trails -->
+            <div class="accordion" id="trails-road-accordion">
+              <!-- Accordion Item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="road-trail1-heading">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#road-trail1-collapse"
+                    aria-expanded="true"
+                    aria-controls="road-trail1-collapse"
+                  >
+                    Tweed Valley Tour
+                  </button>
+                </h2>
+                <div
+                  id="road-trail1-collapse"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="road-trail1-heading"
+                  data-bs-parent="#trails-road-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Moderate</li>
+                      <li>Distance: 40 miles</li>
+                      <li>Elevation Gain: 1500 feet</li>
+                      <li>
+                        Description: Explore the scenic Tweed Valley on this
+                        moderate road bike tour. Ride through charming towns and
+                        picturesque countryside, following the meandering course
+                        of the River Tweed. Enjoy gentle climbs and scenic
+                        vistas as you pedal through one of Scotland's most
+                        beautiful regions.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="road-trail2-heading">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#road-trail2-collapse"
+                    aria-expanded="false"
+                    aria-controls="road-trail2-collapse"
+                  >
+                    Eildon Hills Circuit
+                  </button>
+                </h2>
+                <div
+                  id="road-trail2-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="road-trail2-heading"
+                  data-bs-parent="#trails-road-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Challenging</li>
+                      <li>Distance: 45 miles</li>
+                      <li>Elevation Gain: 2000 feet</li>
+                      <li>
+                        Description: Challenge yourself with the Eildon Hills
+                        Circuit, a challenging road bike route that loops around
+                        the iconic Eildon Hills. Navigate rolling terrain and
+                        sweeping descents as you enjoy panoramic views of the
+                        surrounding countryside and historic landmarks.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="road-trail3-heading">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#road-trail3-collapse"
+                    aria-expanded="false"
+                    aria-controls="road-trail3-collapse"
+                  >
+                    Borders Coastal Route
+                  </button>
+                </h2>
+                <div
+                  id="road-trail3-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="road-trail3-heading"
+                  data-bs-parent="#trails-road-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Intermediate</li>
+                      <li>Distance: 55 miles</li>
+                      <li>Elevation Gain: 1800 feet</li>
+                      <li>
+                        Description: Experience the beauty of the Borders
+                        coastline on this intermediate road bike route. Follow
+                        quiet country lanes and coastal roads as you pedal past
+                        rugged cliffs, sandy beaches, and quaint fishing
+                        villages. Enjoy moderate climbs and exhilarating
+                        descents with stunning sea views at every turn.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="road-trail4-heading">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#road-trail4-collapse"
+                    aria-expanded="false"
+                    aria-controls="road-trail4-collapse"
+                  >
+                    Southern Uplands Challenge
+                  </button>
+                </h2>
+                <div
+                  id="road-trail4-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="road-trail4-heading"
+                  data-bs-parent="#trails-road-accordion"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Difficulty: Advanced</li>
+                      <li>Distance: 70 miles</li>
+                      <li>Elevation Gain: 3500 feet</li>
+                      <li>
+                        Description: Take on the Southern Uplands Challenge, an
+                        advanced road bike route that traverses the rolling
+                        hills and moorlands of the Scottish Borders. Ride
+                        through remote countryside and historic landscapes,
+                        tackling steep climbs and fast descents as you explore
+                        this scenic and challenging region.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-container mt-5 px-3">
+      <div class="container">
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="faq-item">
+              <div class="faq-icon">
+                <i class="fas fa-question-circle"></i>
+              </div>
+              <div class="faq-content">
+                <h3 class="faq-question">How do I rent a bike?</h3>
+                <p class="faq-answer">
+                  Renting a bike is easy! Simply visit our website, select your
+                  preferred bike and rental duration, and proceed to checkout.
+                  You can also visit our store to rent a bike in person.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="faq-item">
+              <div class="faq-icon">
+                <i class="fas fa-question-circle"></i>
+              </div>
+              <div class="faq-content">
+                <h3 class="faq-question">
+                  Do you offer bike maintenance services?
+                </h3>
+                <p class="faq-answer">
+                  Yes, we provide comprehensive bike maintenance and repair
+                  services. Whether you need a tune-up, a flat tire fixed, or
+                  major repairs, our experienced mechanics are here to help.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="faq-item">
+              <div class="faq-icon">
+                <i class="fas fa-question-circle"></i>
+              </div>
+              <div class="faq-content">
+                <h3 class="faq-question">
+                  What safety measures do you have in place?
+                </h3>
+                <p class="faq-answer">
+                  Your safety is our priority. We regularly inspect and maintain
+                  our bikes, provide safety equipment such as helmets, and offer
+                  guidance on safe riding practices. Additionally, we sanitize
+                  our equipment regularly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="faq-item">
+              <div class="faq-icon">
+                <i class="fas fa-question-circle"></i>
+              </div>
+              <div class="faq-content">
+                <h3 class="faq-question">
+                  Can I cancel my bike rental reservation?
+                </h3>
+                <p class="faq-answer">
+                  Yes, you can cancel your bike rental reservation. Please refer
+                  to our cancellation policy for details on cancellations and
+                  refunds.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="footer-social-icons">
+              <a href="https://en-gb.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook-f fa-2xl"></i
+              ></a>
+              <a href="https://gb.linkedin.com/" target="_blank"
+                ><i class="fa-brands fa-linkedin-in fa-2xl"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram fa-2xl"></i
+              ></a>
+              <a href="https://x.com/" target="_blank"
+                ><i class="fa-brands fa-square-x-twitter fa-2xl"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="footer-heading">Subscribe to Our Newsletter</h2>
+            <form
+              onsubmit="ClearFormFields()"
+              class="footer-form"
+              action="maillist.html"
+            >
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <input
+                type="submit"
+                id="redirect"
+                class="mailbutton"
+                value="Subscribe"
+              />
+            </form>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About Us</h3>
+            <p>
+              At Bike King Borders, we're dedicated to providing top-quality
+              mountain bikes for adventurous exploration of the Scottish
+              Borders' stunning landscapes.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact</h3>
+            <p>123 Bike Lane</p>
+            <p>support@BikeKingBorders.co.uk</p>
+            <p>Phone: 01234567890</p>
+          </div>
+          <div class="col-md-4 footer-sitemap">
+            <h3>Site Map</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="hiring.html">Hiring</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--bootstrap js cdn-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>
