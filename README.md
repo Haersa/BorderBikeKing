@@ -41,4 +41,5 @@ If I were to revisit this project, I would:
 
 ## Live Demo
 
-You can view the live project [here](http://webdev.edinburghcollege.ac.uk/~HNCWEBMR11/BikeKingBorders/index.html) or check out the code in the repository.
+You can view the live project [here](http://webdev.edinburghcollege.ac.uk/HNCWEBMR11/BikeKingBorders/) or check out the code in the repository.
+
